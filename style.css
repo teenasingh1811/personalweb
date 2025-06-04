@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+}
+
+footer {
+    color: orangered;
+    background-color: lightyellow;
+    padding: 1em;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 30px;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    color: lightyellow;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: lightyellow;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.navbar a{
+    color: orangered;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: orangered;
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar a.active {
+    background-color: orangered;
+    text-decoration: underline;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+#home {
+    text-align: left;
+    padding: 2em;
+    font-size: 5vw;
+    color: orangered;
+    font-family: 'Pacifico';
+    display: flex;
+    align-items: center;
+}
+
+#image {
+    text-align: right;
+}
+
+img {
+    max-width: 85%;
+    height: 80%;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.dog {
+    text-align: center;
+    max-width: 300px;
+    border-radius: 10px;
+    padding: 2em;
+    font-weight: bold;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact {
+    display: block;
+    background-color: rgba(253, 171, 107, 0.5); 
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+#projects {
+    margin-top: 60px;
+    text-align: center;
+    padding: 2em;
+}
+
+.intro {
+    margin-top: 60px;
+    text-align: center;
+    padding: 2em;
+}
+
+.title {
+    text-align: right;
+    padding: 2em;
+    font-size: 5vw;
+    color: orangered;
+    font-family: 'Pacifico';
+    display: flex;
+    align-items: center;
+}
+
+#about {
+    display: flex;
+}
+
+.info {
+    display: block;
+    background-color: rgba(253, 171, 107, 0.5); 
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 25vw;
+    height: auto;
+}
+

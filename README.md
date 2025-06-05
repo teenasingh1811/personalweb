@@ -21,6 +21,7 @@
 <p>- Holds symbols and graphics that are added to the front end</p>
 <h3>Files</h3>
 <p>- Holds any downloadable or viewable file for the site </p>
+<p>- Holds a basic wireframe for the front-end design </p>
 
 <h2>Built by Teena Singh</h2>
 

@@ -8,6 +8,7 @@
 <p>- 'Bug' for build and debug</p>
 <h3>GitHub</h3>
 <p>- To host website with GitHub Pages</p>
+<p>- To commit changes to the site </p>
 
 <h2>Repository Structure</h2>
 <h3>Index</h3>

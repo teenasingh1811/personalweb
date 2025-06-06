@@ -82,6 +82,16 @@ header {
     text-align: right;
 }
 
+#background {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    width: 700px;
+    height: auto;
+    top: -80px;
+    left: -90px;
+}
+
 img {
     max-width: 85%;
     height: 80%;
@@ -89,18 +99,7 @@ img {
     text-align: right;
 }
 
-.dog {
-    text-align: center;
-    max-width: 300px;
-    border-radius: 10px;
-    padding: 2em;
-    font-weight: bold;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.contact {
+#contact {
     display: block;
     background-color: rgba(253, 171, 107, 0.5); 
     border-radius: 10px;
@@ -114,6 +113,8 @@ img {
     margin-top: 60px;
     text-align: center;
     padding: 2em;
+    display: flex;
+    align-items: center;
 }
 
 .intro {
@@ -123,26 +124,74 @@ img {
 }
 
 .title {
-    text-align: right;
+    text-align: center;
+    right: 10px;
     padding: 2em;
     font-size: 5vw;
     color: orangered;
     font-family: 'Pacifico';
     display: flex;
-    align-items: center;
+    position: absolute;
+    right: 35px;
 }
 
 #about {
     display: flex;
+    align-items: center;
 }
 
 .info {
-    display: block;
+
+    position: absolute;
+    left: 85px;
     background-color: rgba(253, 171, 107, 0.5); 
     border-radius: 10px;
     padding: 10px;
-    text-align: center;
     width: 25vw;
+    height: auto;
+    text-align: center;
+}
+
+#projecttitle {
+    text-align: center;
+    padding: 2em;
+    font-size: 5vw;
+    color: orangered;
+    font-family: 'Pacifico';
+    display: flex;
+}
+
+#resume {
+
+}
+
+.first {
+
+    background-color: rgba(253, 139, 51, 0.721); 
+    border-radius: 50%;
+    padding: 50px;
+    text-align: center;
+    width: auto;
     height: auto;
 }
 
+.second {
+
+    background-color: rgba(251, 170, 108, 0.721); 
+    border-radius: 50%;
+    padding: 50px;
+    text-align: center;
+    width: auto;
+    height: auto;
+
+}
+
+.third {
+
+    background-color: rgba(250, 197, 156, 0.721); 
+    border-radius: 50%;
+    padding: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
